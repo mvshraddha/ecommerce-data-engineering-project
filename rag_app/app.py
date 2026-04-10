@@ -7,7 +7,9 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 st.title("🛒 E-Commerce AI Chatbot")
 
 # Load data
-products = pd.read_csv("ecommerce-data-engineering-project/process_data/products.csv")
+products = pd.read_csv("process_data/products.csv")
+users = pd.read_csv("process_data/users.csv")
+carts = pd.read_csv("process_data/carts.csv")
 
 # Convert to text
 docs = []

@@ -26,10 +26,10 @@ API → S3 (Raw JSON) → AWS Glue (ETL - PySpark) → S3 (Parquet) → Athena (
 
 ## 📂 Project Structure
 │
-├── raw_data/
-│ ├── raw/
-│ │ ├── products.json
-│ │ ├── users.json
+├── raw_data/  
+│ ├── raw/  
+│ │ ├── products.json  
+│ │ ├── users.json  
 │ │ └── carts.json
 │ │
 │ ├── process_data/

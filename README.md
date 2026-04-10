@@ -88,7 +88,7 @@ The Power BI dashboard provides key business insights from the processed e-comme
 
 **Key Metrics**:
 
-Total Revenue
+-"Total Revenue"
 
 Top Selling Products
 

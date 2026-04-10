@@ -36,7 +36,7 @@ API → S3 (Raw JSON) → AWS Glue (ETL - PySpark) → S3 (Parquet) → Athena (
 │ │ ├── products.csv  
 │ │ ├── users.csv  
 │ │ └── carts.csv  
-│   
+│  
 ├── api_etl/  
 │ └── api_extraction.py  
 │  
@@ -103,8 +103,8 @@ The Power BI dashboard provides key business insights from the processed e-comme
 
 - The data used in this project is sourced from the FakeStore API.
 - API Endpoint: https://fakestoreapi.com/
-- Data Format: JSON
-Data Entities:  
+- Data Format: JSON  
+- Data Entities:  
 Products  
 Users  
 Carts  

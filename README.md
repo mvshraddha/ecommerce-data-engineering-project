@@ -76,9 +76,9 @@ The chatbot allows users to ask questions in natural language and retrieves rele
 
 ## ▶️ Run Chatbot Locally
 
--pip install -r requirements.txt
+pip install -r requirements.txt
 
--python -m streamlit run rag_app/app.py
+python -m streamlit run rag_app/app.py
 
 ---
 
@@ -86,77 +86,77 @@ The chatbot allows users to ask questions in natural language and retrieves rele
 
 The Power BI dashboard provides key business insights from the processed e-commerce data.
 
--**Key Metrics**:
+**Key Metrics**:
 
--Total Revenue
+Total Revenue
 
--Top Selling Products
+Top Selling Products
 
--Category-wise Distribution
+Category-wise Distribution
 
--User Purchase Behavior
+User Purchase Behavior
 
--**Insights**:
+**Insights**:
 
--Identified high-value products and categories
+Identified high-value products and categories
 
--Analyzed customer purchasing patterns
+Analyzed customer purchasing patterns
 
--Enabled data-driven decision making
+Enabled data-driven decision making
 
 ---
 
 ## 📡 Data Source
 
--The data used in this project is sourced from the FakeStore API.
+The data used in this project is sourced from the FakeStore API.
 
--API Endpoint: https://fakestoreapi.com/
+API Endpoint: https://fakestoreapi.com/
 
--Data Format: JSON
+Data Format: JSON
 
--Data Entities:
+Data Entities:
 
--Products
+Products
 
--Users
+Users
 
--Carts
+Carts
 
--The API provides mock e-commerce data used for building and testing the pipeline.
+The API provides mock e-commerce data used for building and testing the pipeline.
 
 ---
 
 ## 💡 Key Features
--End-to-end data pipeline using AWS services
+End-to-end data pipeline using AWS services
 
--Data ingestion from API
+Data ingestion from API
 
--ETL processing using AWS Glue (PySpark)
+ETL processing using AWS Glue (PySpark)
 
--Data stored in Parquet format
+Data stored in Parquet format
 
--SQL analytics using Athena
+SQL analytics using Athena
 
--Power BI dashboard
+Power BI dashboard
 
--AI chatbot using RAG
+AI chatbot using RAG
 
 ---
 
 ## 🧠 Learnings
 
--Built scalable data pipeline
+Built scalable data pipeline
 
--Worked with JSON & structured data
+Worked with JSON & structured data
 
--Used PySpark for ETL
+Used PySpark for ETL
 
--Performed SQL analysis
+Performed SQL analysis
 
--Built dashboard
+Built dashboard
 
--Learned embeddings & vector databases
+Learned embeddings & vector databases
 
--Built RAG chatbot
+Built RAG chatbot
 
 ---

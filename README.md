@@ -25,27 +25,27 @@ API → S3 (Raw JSON) → AWS Glue (ETL - PySpark) → S3 (Parquet) → Athena (
 ---
 
 ## 📂 Project Structure
-ecommerce-project/
+ecommerce-data-engineering-project/
 │
-├── data/
+├── raw_data/
 │ ├── raw/
 │ │ ├── products.json
 │ │ ├── users.json
 │ │ └── carts.json
 │ │
-│ ├── processed/
+│ ├── process_data/
 │ │ ├── products.csv
 │ │ ├── users.csv
 │ │ └── carts.csv
 │
-├── etl/
+├── api_etl/
 │ └── api_extraction.py
 │
-├── rag/
+├── rag_app/
 │ └── app.py
 │
-├── dashboard/
-│ └── dashboard.png
+├── e-commerce_sales_dashboard/
+│ └── E-Commerce Sales Dashboard.pdf
 │
 ├── README.md
 ├── requirements.txt
@@ -80,3 +80,19 @@ The chatbot allows users to ask questions in natural language and retrieves rele
 ```bash
 pip install -r requirements.txt
 python -m streamlit run rag/app.py
+
+## 📊 Dashboard
+
+Power BI dashboard provides insights like:
+
+Total Revenue
+Top Products
+Category-wise Sales
+User Order Analysis
+
+##📡 Data Source
+
+Data is sourced from:
+https://fakestoreapi.com/
+
+

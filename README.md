@@ -25,7 +25,6 @@ API → S3 (Raw JSON) → AWS Glue (ETL - PySpark) → S3 (Parquet) → Athena (
 ---
 
 ## 📂 Project Structure
-ecommerce-data-engineering-project/
 │
 ├── raw_data/
 │ ├── raw/
@@ -54,13 +53,13 @@ ecommerce-data-engineering-project/
 
 ## 🔄 Data Pipeline
 
-1. Extracted data from FakeStore API (JSON format)
-2. Stored raw data in AWS S3
-3. Used AWS Glue (PySpark) for ETL processing
-4. Converted data into Parquet format
-5. Queried data using AWS Athena
-6. Built dashboard in Power BI
-7. Created RAG-based chatbot for querying data
+1. Extracted data from FakeStore API (JSON format)  
+2. Stored raw data in AWS S3  
+3. Used AWS Glue (PySpark) for ETL processing  
+4. Converted data into Parquet format  
+5. Queried data using AWS Athena  
+6. Built dashboard in Power BI  
+7. Created RAG-based chatbot for querying data  
 
 ---
 
@@ -69,9 +68,9 @@ ecommerce-data-engineering-project/
 The chatbot allows users to ask questions in natural language and retrieves relevant information using vector similarity search.
 
 ### Example Queries:
-- "Which product has highest price?"
-- "Top products in electronics"
-- "Show expensive items"
+- "Which product has highest price?"  
+- "Top products in electronics"  
+- "Show expensive items"  
 
 ---
 
@@ -79,20 +78,49 @@ The chatbot allows users to ask questions in natural language and retrieves rele
 
 ```bash
 pip install -r requirements.txt
-python -m streamlit run rag/app.py
-
+python -m streamlit run rag_app/app.py
+ 
 ## 📊 Dashboard
 
-Power BI dashboard provides insights like:
+The Power BI dashboard provides key business insights from the processed e-commerce data.
 
+** Key Metrics:
 Total Revenue
-Top Products
-Category-wise Sales
-User Order Analysis
+Top Selling Products
+Category-wise Distribution
+User Purchase Behavior
+Insights:
+Identified high-value products and categories
+Analyzed customer purchasing patterns
+Enabled data-driven decision making
 
-##📡 Data Source
+## 📡 Data Source
 
-Data is sourced from:
-https://fakestoreapi.com/
+The data used in this project is sourced from the FakeStore API.
 
+API Endpoint: https://fakestoreapi.com/
+Data Format: JSON
+Data Entities:
+Products
+Users
+Carts
 
+The API provides mock e-commerce data used for building and testing the pipeline.
+
+## 💡 Key Features
+End-to-end data pipeline using AWS services
+Data ingestion from API
+ETL processing using AWS Glue (PySpark)
+Data stored in Parquet format
+SQL analytics using Athena
+Power BI dashboard
+AI chatbot using RAG
+
+## 🧠 Learnings
+Built scalable data pipeline
+Worked with JSON & structured data
+Used PySpark for ETL
+Performed SQL analysis
+Built dashboard
+Learned embeddings & vector databases
+Built RAG chatbot

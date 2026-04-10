@@ -135,3 +135,9 @@ The API provides mock e-commerce data used for building and testing the pipeline
 - Built RAG chatbot
 
 ---
+
+## 🌐 Live App
+
+https://ecommerce-data-engineering-project-blsjpqfjcjq6vgbct4ak4a.streamlit.app/  
+
+---

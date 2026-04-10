@@ -30,24 +30,24 @@ API → S3 (Raw JSON) → AWS Glue (ETL - PySpark) → S3 (Parquet) → Athena (
 │ ├── raw/  
 │ │ ├── products.json  
 │ │ ├── users.json  
-│ │ └── carts.json
-│ │
-│ ├── process_data/
-│ │ ├── products.csv
-│ │ ├── users.csv
-│ │ └── carts.csv
-│
-├── api_etl/
-│ └── api_extraction.py
-│
-├── rag_app/
-│ └── app.py
-│
-├── e-commerce_sales_dashboard/
-│ └── E-Commerce Sales Dashboard.pdf
-│
-├── README.md
-├── requirements.txt
+│ │ └── carts.json  
+│ │  
+│ ├── process_data/  
+│ │ ├── products.csv  
+│ │ ├── users.csv  
+│ │ └── carts.csv  
+│   
+├── api_etl/  
+│ └── api_extraction.py  
+│  
+├── rag_app/  
+│ └── app.py  
+│  
+├── e-commerce_sales_dashboard/  
+│ └── E-Commerce Sales Dashboard.pdf  
+│  
+├── README.md  
+├── requirements.txt  
 
 ---
 
@@ -76,7 +76,7 @@ The chatbot allows users to ask questions in natural language and retrieves rele
 
 ## ▶️ Run Chatbot Locally
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 python -m streamlit run rag_app/app.py
 
 ---
@@ -104,10 +104,10 @@ The Power BI dashboard provides key business insights from the processed e-comme
 - The data used in this project is sourced from the FakeStore API.
 - API Endpoint: https://fakestoreapi.com/
 - Data Format: JSON
-Data Entities:
-Products
-Users
-Carts
+Data Entities:  
+Products  
+Users  
+Carts  
 
 The API provides mock e-commerce data used for building and testing the pipeline.
 

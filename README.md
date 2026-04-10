@@ -76,10 +76,11 @@ The chatbot allows users to ask questions in natural language and retrieves rele
 
 ## ▶️ Run Chatbot Locally
 
-```bash
 pip install -r requirements.txt
 python -m streamlit run rag_app/app.py
- 
+
+---
+
 ## 📊 Dashboard
 
 The Power BI dashboard provides key business insights from the processed e-commerce data.
@@ -94,6 +95,8 @@ Identified high-value products and categories
 Analyzed customer purchasing patterns
 Enabled data-driven decision making
 
+---
+
 ## 📡 Data Source
 
 The data used in this project is sourced from the FakeStore API.
@@ -107,6 +110,8 @@ Carts
 
 The API provides mock e-commerce data used for building and testing the pipeline.
 
+---
+
 ## 💡 Key Features
 End-to-end data pipeline using AWS services
 Data ingestion from API
@@ -116,6 +121,8 @@ SQL analytics using Athena
 Power BI dashboard
 AI chatbot using RAG
 
+---
+
 ## 🧠 Learnings
 Built scalable data pipeline
 Worked with JSON & structured data
@@ -124,3 +131,5 @@ Performed SQL analysis
 Built dashboard
 Learned embeddings & vector databases
 Built RAG chatbot
+
+---
